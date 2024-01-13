@@ -26,7 +26,13 @@ This project explores various prompting techniques for automatic realistic story
 ### 3. Automatic Chain of Thought
 
 - **Description:** Automatic Chain of Thought combines the principles of Chain of Thought with automated prompt generation. The model dynamically generates prompts during the story generation process, ensuring a continuous and evolving narrative.
+- 
+## Story Evaluation - BertScore and BLEU Score
 
-## Story Evaluation - BertScore
-- **Description:** BertScore is utilized to evaluate the generated stories. This metric assesses the quality of the generated text by comparing it to reference text using contextual embeddings. For more information on BertScore, Please see [BertScore Documentation](https://huggingface.co/spaces/evaluate-metric/bertscore).
+### BertScore
+- **Description:** BertScore is utilized to evaluate the generated stories. This metric assesses the quality of the generated text by comparing it to reference text using contextual embeddings. For more information on BertScore, please see [BertScore Documentation](https://huggingface.co/spaces/evaluate-metric/bertscore).
+
+### BLEU Score
+- **Description:** In addition to BertScore, BLEU (Bilingual Evaluation Understudy) Score is also employed for evaluating the generated stories. BLEU Score measures the similarity between the generated text and reference text based on n-grams precision. You can find more details about BLEU Score [here](https://huggingface.co/spaces/evaluate-metric/bleu).
+
 
