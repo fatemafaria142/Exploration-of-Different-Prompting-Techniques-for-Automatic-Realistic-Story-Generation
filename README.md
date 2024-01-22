@@ -33,6 +33,6 @@ This project explores various prompting techniques for automatic realistic story
 - **Description:** BertScore is utilized to evaluate the generated stories. This metric assesses the quality of the generated text by comparing it to reference text using contextual embeddings. For more information on BertScore, please see [BertScore Documentation](https://huggingface.co/spaces/evaluate-metric/bertscore).
 
 ### BLEU Score
-- **Description:** In addition to BertScore, BLEU (Bilingual Evaluation Understudy) Score is also employed for evaluating the generated stories. BLEU Score measures the similarity between the generated text and reference text based on n-grams precision. You can find more details about BLEU Score [here](https://huggingface.co/spaces/evaluate-metric/bleu).
+- **Description:** In addition to BertScore, BLEU (Bilingual Evaluation Understudy) Score is also employed for evaluating the generated stories. BLEU Score measures the similarity between the generated text and reference text based on n-grams precision. You can find more details about BLEU Score [BLEU Score Documentation](https://huggingface.co/spaces/evaluate-metric/bleu).
 
 
